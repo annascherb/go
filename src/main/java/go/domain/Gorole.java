@@ -22,10 +22,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-/**
- *
- * @author ivc_ShherbakovIV
- */
+
 @Entity
 @Table(name="go_roles")
 public class Gorole implements Serializable {

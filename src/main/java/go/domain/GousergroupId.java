@@ -16,10 +16,8 @@ import go.domain.test.Stock;
 import javax.persistence.Embeddable;
 import javax.persistence.ManyToOne;
 
-/**
- *
- * @author ivc_ShherbakovIV
- */
+
+
 @Embeddable
 public class GousergroupId implements java.io.Serializable {
 

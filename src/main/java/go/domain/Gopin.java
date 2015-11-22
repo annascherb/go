@@ -29,10 +29,7 @@ import javax.persistence.TemporalType;
 import org.hibernate.annotations.Generated;
 import org.hibernate.annotations.GenerationTime;
 
-/**
- *
- * @author ivc_ShherbakovIV
- */
+
 @Entity
 @Table(name = "go_pins")
 public class Gopin implements Serializable {

@@ -9,10 +9,7 @@ import go.domain.Gouser;
 import java.util.List;
 import org.hibernate.Session;
 
-/**
- *
- * @author ivc_ShherbakovIV
- */
+
 public interface GOUserDAOInterface {
 
     public Session openCurrentSession();

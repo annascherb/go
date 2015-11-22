@@ -19,10 +19,7 @@ import go.domain.dao.GOUserDAOInterfaceImpl;
 import go.utils.HibernateUtils;
 import org.hibernate.Hibernate;
 
-/**
- *
- * @author ivc_ShherbakovIV
- */
+
 public class App {
 
     public static void main(String[] args) throws InterruptedException {

@@ -23,10 +23,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-/**
- *
- * @author ivc_ShherbakovIV
- */
+
 @Entity
 @Table(name="go_contacts")
 public class Gocontact implements Serializable{

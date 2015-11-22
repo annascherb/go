@@ -23,10 +23,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-/**
- *
- * @author ivc_ShherbakovIV
- */
+
 @Entity
 @Table(name = "go_groups")
 public class Gogroups implements Serializable {

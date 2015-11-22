@@ -18,10 +18,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-/**
- *
- * @author ivc_ShherbakovIV
- */
+
 @Entity
 @Table(name="go_log")
 public class Golog implements Serializable{

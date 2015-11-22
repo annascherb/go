@@ -20,10 +20,7 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.criterion.Restrictions;
 
-/**
- *
- * @author ivc_ShherbakovIV
- */
+
 @Data
 public class GOUserDAOInterfaceImpl implements GOUserDAOInterface {
 
