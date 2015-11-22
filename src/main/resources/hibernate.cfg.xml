@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory>
+  
+    <property name="connection.url">jdbc:mysql://localhost:3306/go</property>
+    <property name="connection.username">go</property>
+    <property name="connection.password">go</property>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+  
+    <property name="show_sql">true</property>
+  
+    <property name="format_sql">true</property>
+    <property name="hbm2ddl.auto">create</property>
+  
+    <!-- JDBC connection pool (use the built-in) -->
+    <property name="connection.pool_size">10</property>
+    <property name="current_session_context_class">thread</property>
+ 
+     
+     <mapping class="go.domain.Gorole" />
+     <mapping class="go.domain.Gouser" />
+     <mapping class="go.domain.Gotypecont" />
+     <mapping class="go.domain.Gocontact" />
+     <mapping class="go.domain.Golog" />
+     <mapping class="go.domain.Goactions" />
+     <mapping class="go.domain.Gopin" />
+     <mapping class="go.domain.Gogroups" />
+     <mapping class="go.domain.Gousergroup" />
+     <mapping class="go.domain.Gopingroup" />
+     
+     
+     
+     <!--mapping class="go.domain.test.Category" />
+     <mapping class="go.domain.test.Stock" />
+     <mapping class="go.domain.test.StockCategory" /-->
+ 
+ <!-- <mapping resource="com/mkyong/user/DBUser.hbm.xml"></mapping> -->
+</session-factory>
+</hibernate-configuration>
